@@ -1,0 +1,12 @@
+body {
+  background: #09203f;
+  background: -webkit-linear-gradient(top left, #09203f, #537895);
+  background: -moz-linear-gradient(top left, #09203f, #537895);
+  background: linear-gradient(to bottom right, #09203f, #537895);
+  /* background: rgb(174,254,214);
+background: radial-gradient(circle, rgba(174,254,214,1) 0%, 
+rgba(174,254,214,1) 0%, rgba(174,254,214,1) 0%,
+rgba(174,254,214,1) 0%, rgba(174,254,214,1) 6%,
+ rgba(174,254,214,1) 7%, rgba(174,254,214,1) 28%,
+  rgba(160,175,183,1) 100%); */
+}

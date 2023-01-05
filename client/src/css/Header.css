@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+.main-header {
+  font-family: kalam;
+  padding-top: 5px;
+  /* padding-left: 3%; */
+  text-align: center;
+  padding-right: 15px;
+  margin: auto;
+  min-height: 72px;
+  color: #000;
+  /* background: rgb(238,174,202);
+    background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+  background-color: white;
+}
+
+/* .logo{
+    height: 40px;
+    width: auto;
+    max-width: 200px;
+} */
+
+@media all and (max-width: 768px) {
+}

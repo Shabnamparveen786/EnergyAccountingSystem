@@ -1,0 +1,173 @@
+ /*.form-title{
+    justify-content: center;
+}
+.signin-form{
+    height:250px;
+    margin-left:900px;
+    margin-bottom: 600px;
+    margin-top: 150px;
+    justify-content: right;
+    border:2px solid rgb(150, 141, 141);
+    background-color: rgb(125, 121, 121);
+    background:linear-gradient(180.3deg,rgb(221,221,221)5.5%,rgb(110,136,161)90.2%);
+}
+.signin-image{
+    margin-top: 100px;
+    width:20px;
+}
+.signin-content{
+    display:flex;
+}
+.form-group{
+    padding: 5px;
+}
+.form-group .form-control{
+    margin-left: 15px;
+}
+.form-group .form-cntrl{
+    margin-left: 45px;
+}
+.signin-form .btn{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+}
+.fpass{
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    margin-left: 75px;
+}
+
+.ui-divider .user-details .input-box{
+    height: 60px;
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: flex; 
+    position: relative;  
+    border: 2px solid green;   
+    box-sizing: border-box; 
+    border-color: blue;  
+
+} */
+
+
+/* .app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 20px; */
+    /* width: 100px;
+    height: 50vh; */
+    /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd; */
+  /* } */ 
+  .title1{
+    margin-left: 500px;
+    margin-top: -200px;
+    font-size: 20px;
+    color: black;
+  }
+  .title1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #09203F, #537895);
+  }
+  .container4 {
+    /* max-width: 1000px; */
+    height: 60vh;
+    width: 50vw; 
+    background: #fff;
+    margin: auto;
+    /* margin-top: 50px; */
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    border-right: 1px solid gray;
+    box-shadow: 0.01rem 0.25rem rgba(0, 0, 0, 0.75);
+    z-index: 10;
+  }
+  input[type="text1"],
+  input[type="password1"] {
+    width: 300px;
+    height: 40px;
+    margin-left: 390px;
+   margin-top: 10px;
+   padding:20px;
+   border: 1px solid #09203F;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+  }
+  
+   .btn button{
+    /* margin-top: 10px; */
+    margin-left: 500px;
+     margin-top: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    color:white;
+    background: #09203F;
+    border: 1px solid #09203F;
+    /* color: #fff; */
+    padding: 10px 20px;
+    /* margin: 5px; */
+  } 
+  
+  .btn button:hover {
+    background: #537895;
+    color: black;
+  }
+   
+  /* .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .loginpic{
+    height: 300px;
+    width: 100vh;
+
+  } */
+/* .sign-form .form-title h2{
+  justify-content: center;
+}*/
+.signin-image .loginpic{
+  height: 200px;
+  width: 250px;
+  display: flex;
+  margin-top: 100px;
+} 
+.sign-form1 .form-title1{
+  padding: 10px;
+  margin-left: 450px;
+  margin-top: -210px;
+
+}

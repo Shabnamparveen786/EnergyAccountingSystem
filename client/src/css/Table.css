@@ -1,0 +1,19 @@
+.reportTable{
+    max-width: 680px;
+    width: 100%;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border-right: 1px solid gray;
+    box-shadow: 0.01rem 0.25rem rgba(0, 0, 0, 0.75);
+    z-index: 10;
+}
+
+.table .table-bordered{
+ color: black;
+}

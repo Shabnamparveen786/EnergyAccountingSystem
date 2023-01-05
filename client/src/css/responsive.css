@@ -1,0 +1,31 @@
+@media (max-width:1200px){
+    /* Tablet devices */
+
+    .navbar-aside{
+        max-width: 220px;
+    }
+}
+
+@media all and (max-width: 768px){
+    /* Mobile devices */
+  
+     .navbar-aside{
+        z-index: 900;
+        transform: translateX(-100%);
+        overflow-x: hidden;
+        transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
+     
+    }
+     
+     .navbar-aside .aside-top .logo{
+        height: 40px;
+     }
+
+      .navbar-aside.show{
+        visibility: visible;
+        transform: translateX(0);
+      }
+
+      
+
+}

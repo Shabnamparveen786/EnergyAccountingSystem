@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+/* body{
+    position: relative;
+    min-height: 100vh;
+}
+*/
+body.offcanvas-active{
+    overflow: hidden;
+} 
+.navbar-aside {
+   max-width: 260px;
+   display: block;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   width: 100%;
+   overflow-y: auto;
+   /* background: rgb(238,174,202); */
+   background-color: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   /* box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.75); */
+   z-index: 10;
+   border-right: 1px solid rgba(108, 117, 125, 0.25);
+}
+
+ .navbar-aside .aside-top {
+    padding: 1.2rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-aside .aside-top .brand-wrap {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: inline-block;
+}
+
+.navbar-aside .aside-top .logo{
+    height: 48px;
+    width: auto;
+    max-width: 200px;
+    /* background-color: #4fa607; */
+ }
+
+ .menu-aside {
+    list-style: none;
+    margin: 0.5rem;
+    padding: 0;
+    /* display: block;
+    text-decoration: none;
+     */
+} 
+
+.menu-aside a {
+    display: block;
+    text-decoration: none;
+}
+
+.menu-aside .menu-item {
+    margin-bottom: 5px;
+    /* list-style-type: none;
+    margin: 0;
+    padding: 0; */
+}
+
+.menu-aside .menu-item .icon {
+    color: black;
+    margin-right: 10px;
+    font-size: 18px;
+    /* padding: 0 10px; */
+}
+
+/* .menu-aside a {
+  display: block;
+  text-decoration: none;
+} */
+
+.menu-aside .active .icon {
+    color: #000;
+}
+
+ /* .menu-aside .active {
+     background-color: #949897; 
+}  */
+
+.menu-aside .menu-link {
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menu-aside .menu-link .text {
+    vertical-align: middle;
+    font-family: Kalam;
+}
+
+.menu-aside .menu-link:hover {
+    transition: 0.2s linear;
+    background-color: #09203F;
+    color:#fff;
+} 
+
+.main-wrap{
+    padding: 30px 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner{
+    padding: 1rem;
+}
+
+/* body.aside-mini .navbar-aside{
+    margin-left: 70px;
+}
+
+body.aside-mini .navbar-aside{
+    max-width: 70%;
+    overflow: visible;
+    position: absolute;
+    min-height: 100%;
+    bottom: auto;
+}
+
+body.aside-mini .navbar-aside .aside-top{
+    text-align: center;
+}
+
+body.aside-mini .navbar-aside .aside-top > div {
+    flex-grow: 1;
+}
+
+body.aside-mini .navbar-aside .navbar-aside,
+body.aside-mini .navbar-aside .logo {
+    display: none;
+}
+
+body.aside-mini .menu-aside .menu-link{
+    text-align: center;
+}
+body.aside-mini .menu-aside .menu-link .text{
+    text-align: none;
+}
+
+body.aside-mini .menu-aside .menu-link .icon {
+    margin-right: 0;
+}
+
+body.aside-mini .main-wrap{
+    margin-left: 70%;
+} */
+ 
+.side-nav-container{
+    background-color: #537895;
+    /* background-color: #09203F; */
+    width:300px;
+    height:160vh;
+    position:relative;
+    /* color:aquamarine; */
+    transition: 0.4s;
+}
+.side-nav-container-NX{
+    width: 60px;
+}
+.nav-upper,
+.nav-heading {
+    display:grid;
+}
+.nav-heading{
+    grid-template-columns: 2fr,1fr;
+    grid-template-rows: 1fr;
+    height:75px;
+}
+.nav-brand{
+    display: flex;
+}
+.nav-brand img{
+    width:60px;
+    padding:0 10px;
+}
+.hamburger {
+    position: absolute;
+    right: 0;
+
+	background: none;
+	border: none;
+	cursor: pointer;
+
+	margin: auto -35px;
+    background-color: #537895;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 90px;
+    height: 71px;
+    width: 74px;
+    
+}
+
+.hamburger span {
+	display: block;
+	margin-top: 5px;
+	background-color: white;
+	border-radius: 15px;
+	height: 5px;
+	width: 35px;
+
+	transition: 0.4s;
+}
+
+.hamburger-in:hover span:nth-child(1) {
+	width: 25px;
+	transform: translate(-3px, 8px) rotate(30deg);
+}
+
+.hamburger-in:hover span:nth-child(2){
+    display: none;
+}
+.hamburger-in:hover span:nth-child(3) {
+	width: 25px;
+    transform: translate(-3px, -8px) rotate(-30deg);
+}
+
+.hamburger-out:hover span:nth-child(1) {
+	width: 25px;
+	transform: translate(0px, 8px) rotate(-30deg);
+}
+.hamburger-out:hover span:nth-child(2) {
+     display: none;
+}
+.hamburger-out:hover span:nth-child(3) {
+	width: 25px;
+	transform: translate(0px, -8px) rotate(30deg);
+}

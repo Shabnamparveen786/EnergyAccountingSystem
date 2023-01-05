@@ -1,0 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam&display=swap'); */
+ 
+.mini-header {
+     
+    padding-top: 1px;
+    padding-left: 3%;
+    /* text-align: center; */
+    padding-right: 1%;
+    /* margin:auto; */
+    height: 50px;
+    color: #000;
+    background: #fff;
+    display: flex;
+    
+}
+.mini-header .user{
+    margin-left: 10px;
+}
+.mini-header .header-mini span, .mini-header
+ .user span{
+    color:red;
+}

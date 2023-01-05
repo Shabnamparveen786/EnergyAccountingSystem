@@ -1,0 +1,29 @@
+import React from "react";
+import "../../css/Dashboard.css";
+import Header from "../components/AE_Header";
+import MiniHeader from "../components/AE_MiniHeader";
+import Sidebar from "../components/AE_Sidebar";
+import MonthlyTransformerTablePage from "../AE_Pages/MonthlyTransformerTablePage";
+
+const MonthlyTransformerTableScreen = () => {
+    return (
+      <>
+        <div className="container">
+          <div className="header">
+            <Header />
+          </div>
+          <div className="mini-header">
+            <MiniHeader />
+          </div>
+          <div className="sidebar">
+            <Sidebar />
+          </div>
+          <div className="chart">
+            <MonthlyTransformerTablePage />
+          </div>
+        </div>
+      </>
+    );
+}
+
+export default MonthlyTransformerTableScreen;
